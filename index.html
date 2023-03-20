@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="container-inputs">
+      <div class="container-bill">
+        <p>Bill</p>
+        <p class="dollar-sign">$</p>
+        <input type="text" class="input-bill-amount" id="buttonBillAmount">
+      </div>
+      <div class="container-tip-amount">
+        <p>Select Tip %</p>
+        <button class="button-tip" id="5%">5%</button>
+        <button class="button-tip" id="10%">10%</button>
+        <button class="button-tip" id="15%">15%</button>
+        <button class="button-tip" id="25%">25%</button>
+        <button class="button-tip" id="50%">50%</button>
+        <input type="text" class="input-custom-tip" id="inputCustomTip">
+      </div>
+      <div class="container-numberOfPeople">
+        <p>Number of People</p>
+        <input type="text" class="input-number-of-people" id="inputNumberOfPeople">
+      </div>
+    </div>
+    <div class="container-output">
+      <div class="container-output-tip-amount">
+        <p>Tip Amount</p>
+        <p class="subtitle">/person</p>
+        <h1 id="tipAmountOutput">$0.00</h1>
+      </div>
+      <div class="container-output-total">
+        <p>Total</p>
+        <p class="subtitle">/person</p>
+        <h1>$0.00</h1>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </footer>
+</body>
+</html>
